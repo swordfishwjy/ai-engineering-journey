@@ -1,0 +1,1456 @@
+{
+  "summary": {
+    "model": "claude-haiku-5-5",
+    "n": 50,
+    "success_rate": 1.0,
+    "wall_time_s": 7.51,
+    "sum_latency_s": 70.75,
+    "p50_s": 1.19,
+    "p95_s": 2.43,
+    "tokens": {
+      "input": 79145,
+      "output": 7422
+    },
+    "accuracy": {
+      "title": 1.0,
+      "company": 1.0,
+      "tech_stack": 0.846,
+      "min_salary": 1.0,
+      "experience_years": 1.0,
+      "is_remote": 1.0,
+      "role_level": 1.0,
+      "posting_count": 1.0
+    },
+    "failures": []
+  },
+  "results": [
+    {
+      "id": 0,
+      "ok": true,
+      "latency_s": 2.4228807909821626,
+      "usage": {
+        "input": 1385,
+        "output": 92
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Junior Frontend Engineer",
+            "company": "Ferro Systems",
+            "tech_stack": [
+              "Django",
+              "Rust",
+              "Java"
+            ],
+            "min_salary": 75000,
+            "experience_years": 0,
+            "is_remote": true,
+            "role_level": "Junior"
+          }
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "ok": true,
+      "latency_s": 2.44015979199321,
+      "usage": {
+        "input": 1567,
+        "output": 143
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Software Engineer II",
+            "company": "Brightpath AI",
+            "tech_stack": [
+              "Django",
+              "Spring Boot",
+              "Google Cloud Platform",
+              "AWS",
+              "Kubernetes",
+              "Helm",
+              "GitHub Actions",
+              "Argo",
+              "PostgreSQL",
+              "LLM API",
+              "Vector Search"
+            ],
+            "min_salary": null,
+            "experience_years": 5,
+            "is_remote": true,
+            "role_level": "Mid"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "ok": true,
+      "latency_s": 2.4105923750030342,
+      "usage": {
+        "input": 1414,
+        "output": 87
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Full Stack Developer",
+            "company": "Quartzline",
+            "tech_stack": [
+              "Kubernetes",
+              "Java"
+            ],
+            "min_salary": 135000,
+            "experience_years": 2,
+            "is_remote": false,
+            "role_level": "Mid"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "ok": true,
+      "latency_s": 2.4261981249728706,
+      "usage": {
+        "input": 1481,
+        "output": 115
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Staff Software Engineer",
+            "company": "Ferro Systems",
+            "tech_stack": [
+              "FastAPI",
+              "TypeScript",
+              "React",
+              "Go",
+              "Redis",
+              "Kubernetes",
+              "PostgreSQL"
+            ],
+            "min_salary": null,
+            "experience_years": 8,
+            "is_remote": false,
+            "role_level": "Staff"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "ok": true,
+      "latency_s": 2.4238944579847157,
+      "usage": {
+        "input": 1418,
+        "output": 115
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Staff Infrastructure Engineer",
+            "company": "Tidewater Games",
+            "tech_stack": [
+              "React",
+              "Kafka",
+              "PyTorch",
+              "Java",
+              "Kubernetes",
+              "PostgreSQL"
+            ],
+            "min_salary": 210000,
+            "experience_years": 9,
+            "is_remote": false,
+            "role_level": "Staff"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "ok": true,
+      "latency_s": 2.407556874997681,
+      "usage": {
+        "input": 1656,
+        "output": 109
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Data Engineer",
+            "company": "Orbit Freight",
+            "tech_stack": [
+              "Snowflake",
+              "Django",
+              "Python",
+              "Redis",
+              "AWS",
+              "S3",
+              "Glue",
+              "Lambda"
+            ],
+            "min_salary": 110000,
+            "experience_years": 2,
+            "is_remote": false,
+            "role_level": "Mid"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "ok": true,
+      "latency_s": 2.40760274999775,
+      "usage": {
+        "input": 1261,
+        "output": 117
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Senior Backend Engineer",
+            "company": "Brightpath AI",
+            "tech_stack": [
+              "FastAPI",
+              "Terraform",
+              "Kubernetes",
+              "Google Cloud Platform",
+              "PostgreSQL"
+            ],
+            "min_salary": 185000,
+            "experience_years": null,
+            "is_remote": true,
+            "role_level": "Senior"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "ok": true,
+      "latency_s": 2.4036305000190623,
+      "usage": {
+        "input": 2525,
+        "output": 97
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Principal Engineer",
+            "company": "Orbit Freight",
+            "tech_stack": [
+              "Django",
+              "Rust",
+              "Go",
+              "Terraform",
+              "AWS"
+            ],
+            "min_salary": 215000,
+            "experience_years": null,
+            "is_remote": true,
+            "role_level": "Staff"
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "ok": true,
+      "latency_s": 2.412751666997792,
+      "usage": {
+        "input": 1238,
+        "output": 104
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Associate Software Engineer",
+            "company": "Orbit Freight",
+            "tech_stack": [
+              "PyTorch",
+              "Spring Boot",
+              "Python",
+              "Redis",
+              "Kafka"
+            ],
+            "min_salary": null,
+            "experience_years": 1,
+            "is_remote": false,
+            "role_level": "Junior"
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "ok": true,
+      "latency_s": 2.412830250017578,
+      "usage": {
+        "input": 1548,
+        "output": 125
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Associate Software Engineer",
+            "company": "Orbit Freight",
+            "tech_stack": [
+              "Python",
+              "Spring Boot",
+              "GCP",
+              "Cloud Run",
+              "Pub/Sub",
+              "BigQuery",
+              "SQL",
+              "Git",
+              "Java"
+            ],
+            "min_salary": 80000,
+            "experience_years": 0,
+            "is_remote": false,
+            "role_level": "Junior"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "ok": true,
+      "latency_s": 2.1610802500217687,
+      "usage": {
+        "input": 2202,
+        "output": 398
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Backend Engineer",
+            "company": "Lumen Pay",
+            "tech_stack": [
+              "Snowflake",
+              "PyTorch",
+              "Python"
+            ],
+            "min_salary": 145000,
+            "experience_years": null,
+            "is_remote": false,
+            "role_level": "Mid"
+          },
+          {
+            "title": "Senior Backend Engineer",
+            "company": "Nimbus Labs",
+            "tech_stack": [
+              "TypeScript",
+              "Snowflake",
+              "Terraform"
+            ],
+            "min_salary": 190000,
+            "experience_years": 6,
+            "is_remote": false,
+            "role_level": "Senior"
+          }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "ok": true,
+      "latency_s": 1.273543959017843,
+      "usage": {
+        "input": 1473,
+        "output": 101
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Senior Platform Engineer",
+            "company": "Orbit Freight",
+            "tech_stack": [
+              "Snowflake",
+              "FastAPI",
+              "PostgreSQL"
+            ],
+            "min_salary": 200000,
+            "experience_years": 8,
+            "is_remote": false,
+            "role_level": "Senior"
+          }
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "ok": true,
+      "latency_s": 1.290100165992044,
+      "usage": {
+        "input": 1314,
+        "output": 87
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Junior Backend Developer",
+            "company": "Brightpath AI",
+            "tech_stack": [
+              "Redis",
+              "Python"
+            ],
+            "min_salary": 85000,
+            "experience_years": 0,
+            "is_remote": true,
+            "role_level": "Junior"
+          }
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "ok": true,
+      "latency_s": 1.501956791995326,
+      "usage": {
+        "input": 1833,
+        "output": 117
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Software Engineer II",
+            "company": "Nimbus Labs",
+            "tech_stack": [
+              "TypeScript",
+              "PyTorch",
+              "Django",
+              "Rust",
+              "PostgreSQL",
+              "Docker",
+              "Kubernetes"
+            ],
+            "min_salary": 125000,
+            "experience_years": 5,
+            "is_remote": true,
+            "role_level": "Mid"
+          }
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "ok": true,
+      "latency_s": 1.3127042920095846,
+      "usage": {
+        "input": 1322,
+        "output": 90
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Staff Software Engineer",
+            "company": "Quartzline",
+            "tech_stack": [
+              "AWS",
+              "Apache Kafka"
+            ],
+            "min_salary": 270000,
+            "experience_years": 8,
+            "is_remote": false,
+            "role_level": "Staff"
+          }
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "ok": true,
+      "latency_s": 1.370814167021308,
+      "usage": {
+        "input": 1417,
+        "output": 118
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Associate Software Engineer",
+            "company": "Lumen Pay",
+            "tech_stack": [
+              "Django",
+              "FastAPI",
+              "PostgreSQL",
+              "Kubernetes",
+              "Python",
+              "pytest",
+              "GitHub Actions"
+            ],
+            "min_salary": null,
+            "experience_years": 1,
+            "is_remote": true,
+            "role_level": "Junior"
+          }
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "ok": true,
+      "latency_s": 1.2947097499854863,
+      "usage": {
+        "input": 1387,
+        "output": 10
+      },
+      "result": {
+        "postings": []
+      }
+    },
+    {
+      "id": 17,
+      "ok": true,
+      "latency_s": 2.8606822909787297,
+      "usage": {
+        "input": 1824,
+        "output": 509
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Associate Software Engineer",
+            "company": "Quartzline",
+            "tech_stack": [
+              "Python",
+              "Snowflake",
+              "dbt",
+              "Kubernetes",
+              "PostgreSQL",
+              "TypeScript"
+            ],
+            "min_salary": 85000,
+            "experience_years": null,
+            "is_remote": true,
+            "role_level": "Junior"
+          }
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "ok": true,
+      "latency_s": 1.9558711669815239,
+      "usage": {
+        "input": 1631,
+        "output": 281
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Staff Software Engineer",
+            "company": "Helio Health",
+            "tech_stack": [
+              "Python",
+              "Kubernetes",
+              "Spring Boot",
+              "Google Cloud Platform",
+              "PyTorch"
+            ],
+            "min_salary": 245000,
+            "experience_years": 12,
+            "is_remote": false,
+            "role_level": "Staff"
+          }
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "ok": true,
+      "latency_s": 1.0206423750205431,
+      "usage": {
+        "input": 1341,
+        "output": 90
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Backend Engineer",
+            "company": "Ferro Systems",
+            "tech_stack": [
+              "Go",
+              "Snowflake",
+              "Redis"
+            ],
+            "min_salary": null,
+            "experience_years": 3,
+            "is_remote": true,
+            "role_level": "Mid"
+          }
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "ok": true,
+      "latency_s": 1.0575307499966584,
+      "usage": {
+        "input": 1386,
+        "output": 126
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Software Engineer II",
+            "company": "Quartzline",
+            "tech_stack": [
+              "Kubernetes",
+              "Google Kubernetes Engine",
+              "Java",
+              "Django",
+              "PostgreSQL",
+              "Redis",
+              "Terraform",
+              "Apache Airflow"
+            ],
+            "min_salary": 110000,
+            "experience_years": 5,
+            "is_remote": false,
+            "role_level": "Mid"
+          }
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "ok": true,
+      "latency_s": 2.6132902080134954,
+      "usage": {
+        "input": 1727,
+        "output": 569
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Senior Backend Engineer",
+            "company": "Lumen Pay",
+            "tech_stack": [
+              "Spring Boot",
+              "Java",
+              "Kubernetes",
+              "Rust"
+            ],
+            "min_salary": 170000,
+            "experience_years": 5,
+            "is_remote": true,
+            "role_level": "Senior"
+          },
+          {
+            "title": "Junior Backend Developer",
+            "company": "Brightpath AI",
+            "tech_stack": [
+              "Rust",
+              "Kafka",
+              "TypeScript",
+              "Google Cloud Platform",
+              "Cloud Run",
+              "Pub/Sub",
+              "BigQuery"
+            ],
+            "min_salary": null,
+            "experience_years": 1,
+            "is_remote": false,
+            "role_level": "Junior"
+          }
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "ok": true,
+      "latency_s": 1.6705777500174008,
+      "usage": {
+        "input": 2067,
+        "output": 324
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Junior Frontend Engineer",
+            "company": "Ferro Systems",
+            "tech_stack": [
+              "Rust",
+              "WebAssembly",
+              "Spring Boot",
+              "Git"
+            ],
+            "min_salary": null,
+            "experience_years": null,
+            "is_remote": false,
+            "role_level": "Junior"
+          }
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "ok": true,
+      "latency_s": 0.848258749989327,
+      "usage": {
+        "input": 2318,
+        "output": 113
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Senior Platform Engineer",
+            "company": "Brightpath AI",
+            "tech_stack": [
+              "FastAPI",
+              "Spring Boot",
+              "Terraform",
+              "Rust",
+              "Python",
+              "Kubernetes"
+            ],
+            "min_salary": 150000,
+            "experience_years": null,
+            "is_remote": true,
+            "role_level": "Senior"
+          }
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "ok": true,
+      "latency_s": 0.8319151660252828,
+      "usage": {
+        "input": 2036,
+        "output": 108
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Junior Backend Developer",
+            "company": "Lumen Pay",
+            "tech_stack": [
+              "Spring Boot",
+              "React",
+              "GCP",
+              "Kubernetes",
+              "PostgreSQL"
+            ],
+            "min_salary": 100000,
+            "experience_years": 0,
+            "is_remote": true,
+            "role_level": "Junior"
+          }
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "ok": true,
+      "latency_s": 1.3108703329926357,
+      "usage": {
+        "input": 1491,
+        "output": 224
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Associate Software Engineer",
+            "company": "Helio Health",
+            "tech_stack": [
+              "Rust",
+              "Go",
+              "PostgreSQL",
+              "React",
+              "Kubernetes"
+            ],
+            "min_salary": 70000,
+            "experience_years": 0,
+            "is_remote": false,
+            "role_level": "Junior"
+          }
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "ok": true,
+      "latency_s": 1.3327163750072941,
+      "usage": {
+        "input": 1367,
+        "output": 239
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Senior Platform Engineer",
+            "company": "Orbit Freight",
+            "tech_stack": [
+              "Django",
+              "React",
+              "PyTorch",
+              "Kubernetes",
+              "AWS",
+              "PostgreSQL"
+            ],
+            "min_salary": 150000,
+            "experience_years": null,
+            "is_remote": false,
+            "role_level": "Senior"
+          }
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "ok": true,
+      "latency_s": 0.8772412910184357,
+      "usage": {
+        "input": 1283,
+        "output": 87
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Full Stack Developer",
+            "company": "Helio Health",
+            "tech_stack": [
+              "Kubernetes",
+              "Go"
+            ],
+            "min_salary": 125000,
+            "experience_years": null,
+            "is_remote": false,
+            "role_level": "Mid"
+          }
+        ]
+      }
+    },
+    {
+      "id": 28,
+      "ok": true,
+      "latency_s": 1.447609958006069,
+      "usage": {
+        "input": 1628,
+        "output": 265
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Senior Backend Engineer",
+            "company": "Brightpath AI",
+            "tech_stack": [
+              "Python",
+              "FastAPI",
+              "Kubernetes"
+            ],
+            "min_salary": 155000,
+            "experience_years": 7,
+            "is_remote": true,
+            "role_level": "Senior"
+          }
+        ]
+      }
+    },
+    {
+      "id": 29,
+      "ok": true,
+      "latency_s": 0.8450099159963429,
+      "usage": {
+        "input": 1298,
+        "output": 96
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Senior Backend Engineer",
+            "company": "Quartzline",
+            "tech_stack": [
+              "React",
+              "Spring Boot",
+              "Go",
+              "Terraform"
+            ],
+            "min_salary": 175000,
+            "experience_years": 7,
+            "is_remote": true,
+            "role_level": "Senior"
+          }
+        ]
+      }
+    },
+    {
+      "id": 30,
+      "ok": true,
+      "latency_s": 0.8642528330092318,
+      "usage": {
+        "input": 1457,
+        "output": 103
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Principal Engineer",
+            "company": "Brightpath AI",
+            "tech_stack": [
+              "Go",
+              "Python",
+              "Spring Boot",
+              "AWS",
+              "EKS",
+              "RDS"
+            ],
+            "min_salary": 230000,
+            "experience_years": 8,
+            "is_remote": false,
+            "role_level": "Staff"
+          }
+        ]
+      }
+    },
+    {
+      "id": 31,
+      "ok": true,
+      "latency_s": 0.8019026250112802,
+      "usage": {
+        "input": 1548,
+        "output": 108
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Senior Platform Engineer",
+            "company": "Quartzline",
+            "tech_stack": [
+              "PyTorch",
+              "PostgreSQL",
+              "AWS",
+              "React",
+              "Terraform",
+              "CDK"
+            ],
+            "min_salary": 170000,
+            "experience_years": 6,
+            "is_remote": true,
+            "role_level": "Senior"
+          }
+        ]
+      }
+    },
+    {
+      "id": 32,
+      "ok": true,
+      "latency_s": 1.0099689580092672,
+      "usage": {
+        "input": 1334,
+        "output": 187
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Full Stack Developer",
+            "company": "Orbit Freight",
+            "tech_stack": [
+              "PostgreSQL",
+              "Snowflake"
+            ],
+            "min_salary": null,
+            "experience_years": 4,
+            "is_remote": true,
+            "role_level": "Mid"
+          },
+          {
+            "title": "Principal Engineer",
+            "company": "Brightpath AI",
+            "tech_stack": [
+              "React",
+              "TypeScript",
+              "PostgreSQL",
+              "Spring Boot",
+              "Redis"
+            ],
+            "min_salary": 250000,
+            "experience_years": null,
+            "is_remote": false,
+            "role_level": "Staff"
+          }
+        ]
+      }
+    },
+    {
+      "id": 33,
+      "ok": true,
+      "latency_s": 0.6475363330100663,
+      "usage": {
+        "input": 1918,
+        "output": 10
+      },
+      "result": {
+        "postings": []
+      }
+    },
+    {
+      "id": 34,
+      "ok": true,
+      "latency_s": 0.8433429999859072,
+      "usage": {
+        "input": 2050,
+        "output": 106
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Backend Engineer",
+            "company": "Helio Health",
+            "tech_stack": [
+              "Go",
+              "Django",
+              "PostgreSQL",
+              "Redis",
+              "Kubernetes",
+              "Terraform"
+            ],
+            "min_salary": 155000,
+            "experience_years": 2,
+            "is_remote": true,
+            "role_level": "Mid"
+          }
+        ]
+      }
+    },
+    {
+      "id": 35,
+      "ok": true,
+      "latency_s": 1.5347579999943264,
+      "usage": {
+        "input": 1759,
+        "output": 313
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Staff Infrastructure Engineer",
+            "company": "Orbit Freight",
+            "tech_stack": [
+              "Kubernetes",
+              "AWS",
+              "PostgreSQL",
+              "Rust",
+              "Python",
+              "Java",
+              "Spring Boot",
+              "TypeScript",
+              "Terraform",
+              "Prometheus",
+              "Grafana"
+            ],
+            "min_salary": 235000,
+            "experience_years": null,
+            "is_remote": false,
+            "role_level": "Staff"
+          }
+        ]
+      }
+    },
+    {
+      "id": 36,
+      "ok": true,
+      "latency_s": 0.8129202089912724,
+      "usage": {
+        "input": 1319,
+        "output": 96
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Junior Frontend Engineer",
+            "company": "Brightpath AI",
+            "tech_stack": [
+              "Google Cloud Platform",
+              "Rust"
+            ],
+            "min_salary": 95000,
+            "experience_years": 1,
+            "is_remote": false,
+            "role_level": "Junior"
+          }
+        ]
+      }
+    },
+    {
+      "id": 37,
+      "ok": true,
+      "latency_s": 0.8230467500106897,
+      "usage": {
+        "input": 1271,
+        "output": 113
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Staff Software Engineer",
+            "company": "Tidewater Games",
+            "tech_stack": [
+              "Spring Boot",
+              "Django",
+              "Snowflake",
+              "Kubernetes",
+              "Google Cloud Platform"
+            ],
+            "min_salary": 235000,
+            "experience_years": 8,
+            "is_remote": false,
+            "role_level": "Staff"
+          }
+        ]
+      }
+    },
+    {
+      "id": 38,
+      "ok": true,
+      "latency_s": 0.8952545000065584,
+      "usage": {
+        "input": 1612,
+        "output": 89
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Senior ML Engineer",
+            "company": "Lumen Pay",
+            "tech_stack": [
+              "Rust",
+              "Snowflake"
+            ],
+            "min_salary": null,
+            "experience_years": 6,
+            "is_remote": true,
+            "role_level": "Senior"
+          }
+        ]
+      }
+    },
+    {
+      "id": 39,
+      "ok": true,
+      "latency_s": 0.8717564580147155,
+      "usage": {
+        "input": 1299,
+        "output": 107
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Senior Platform Engineer",
+            "company": "Tidewater Games",
+            "tech_stack": [
+              "Go",
+              "FastAPI",
+              "AWS",
+              "PyTorch",
+              "Kubernetes"
+            ],
+            "min_salary": 205000,
+            "experience_years": null,
+            "is_remote": false,
+            "role_level": "Senior"
+          }
+        ]
+      }
+    },
+    {
+      "id": 40,
+      "ok": true,
+      "latency_s": 0.7716760410112329,
+      "usage": {
+        "input": 1215,
+        "output": 98
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Staff Software Engineer",
+            "company": "Lumen Pay",
+            "tech_stack": [
+              "AWS",
+              "Django",
+              "Terraform",
+              "Kubernetes"
+            ],
+            "min_salary": null,
+            "experience_years": 8,
+            "is_remote": true,
+            "role_level": "Staff"
+          }
+        ]
+      }
+    },
+    {
+      "id": 41,
+      "ok": true,
+      "latency_s": 0.8575411670026369,
+      "usage": {
+        "input": 1253,
+        "output": 84
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Data Engineer",
+            "company": "Helio Health",
+            "tech_stack": [
+              "Kubernetes",
+              "Python"
+            ],
+            "min_salary": null,
+            "experience_years": 5,
+            "is_remote": true,
+            "role_level": "Mid"
+          }
+        ]
+      }
+    },
+    {
+      "id": 42,
+      "ok": true,
+      "latency_s": 0.8044674579869024,
+      "usage": {
+        "input": 2392,
+        "output": 110
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Staff Infrastructure Engineer",
+            "company": "Brightpath AI",
+            "tech_stack": [
+              "Kubernetes",
+              "Redis",
+              "Snowflake",
+              "Rust",
+              "Terraform"
+            ],
+            "min_salary": 265000,
+            "experience_years": 8,
+            "is_remote": true,
+            "role_level": "Staff"
+          }
+        ]
+      }
+    },
+    {
+      "id": 43,
+      "ok": true,
+      "latency_s": 1.0974170840054285,
+      "usage": {
+        "input": 1701,
+        "output": 209
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Senior Backend Engineer",
+            "company": "Quartzline",
+            "tech_stack": [
+              "Python",
+              "Django",
+              "PostgreSQL",
+              "Redis",
+              "Kubernetes"
+            ],
+            "min_salary": null,
+            "experience_years": null,
+            "is_remote": true,
+            "role_level": "Senior"
+          },
+          {
+            "title": "Data Engineer",
+            "company": "Quartzline",
+            "tech_stack": [
+              "Google Cloud Platform",
+              "Spring Boot",
+              "Java",
+              "Kafka",
+              "Airflow",
+              "BigQuery",
+              "Dataflow"
+            ],
+            "min_salary": null,
+            "experience_years": 2,
+            "is_remote": false,
+            "role_level": "Mid"
+          }
+        ]
+      }
+    },
+    {
+      "id": 44,
+      "ok": true,
+      "latency_s": 0.8291026669903658,
+      "usage": {
+        "input": 1469,
+        "output": 104
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Senior Backend Engineer",
+            "company": "Nimbus Labs",
+            "tech_stack": [
+              "Kubernetes",
+              "Snowflake",
+              "FastAPI",
+              "Go"
+            ],
+            "min_salary": 200000,
+            "experience_years": 7,
+            "is_remote": false,
+            "role_level": "Senior"
+          }
+        ]
+      }
+    },
+    {
+      "id": 45,
+      "ok": true,
+      "latency_s": 0.8861758749990258,
+      "usage": {
+        "input": 1293,
+        "output": 99
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Associate Software Engineer",
+            "company": "Orbit Freight",
+            "tech_stack": [
+              "TypeScript",
+              "PyTorch",
+              "Redis",
+              "Python"
+            ],
+            "min_salary": 105000,
+            "experience_years": null,
+            "is_remote": false,
+            "role_level": "Junior"
+          }
+        ]
+      }
+    },
+    {
+      "id": 46,
+      "ok": true,
+      "latency_s": 0.8379086249915417,
+      "usage": {
+        "input": 1370,
+        "output": 100
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Data Engineer",
+            "company": "Helio Health",
+            "tech_stack": [
+              "Snowflake",
+              "Terraform",
+              "GCP",
+              "FastAPI",
+              "dbt"
+            ],
+            "min_salary": 155000,
+            "experience_years": 3,
+            "is_remote": false,
+            "role_level": "Mid"
+          }
+        ]
+      }
+    },
+    {
+      "id": 47,
+      "ok": true,
+      "latency_s": 0.8333927499770653,
+      "usage": {
+        "input": 1346,
+        "output": 109
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Senior ML Engineer",
+            "company": "Brightpath AI",
+            "tech_stack": [
+              "Kubernetes",
+              "Amazon EKS",
+              "AWS",
+              "Redis",
+              "Python",
+              "Django"
+            ],
+            "min_salary": 185000,
+            "experience_years": 7,
+            "is_remote": true,
+            "role_level": "Senior"
+          }
+        ]
+      }
+    },
+    {
+      "id": 48,
+      "ok": true,
+      "latency_s": 0.8553400840028189,
+      "usage": {
+        "input": 2411,
+        "output": 123
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Junior Frontend Engineer",
+            "company": "Brightpath AI",
+            "tech_stack": [
+              "React",
+              "Django",
+              "AWS",
+              "CloudFront",
+              "S3",
+              "AWS Lambda",
+              "JavaScript",
+              "TypeScript",
+              "Python"
+            ],
+            "min_salary": 85000,
+            "experience_years": 2,
+            "is_remote": false,
+            "role_level": "Junior"
+          }
+        ]
+      }
+    },
+    {
+      "id": 49,
+      "ok": true,
+      "latency_s": 0.8308380000235047,
+      "usage": {
+        "input": 1290,
+        "output": 98
+      },
+      "result": {
+        "postings": [
+          {
+            "title": "Junior Backend Developer",
+            "company": "Ferro Systems",
+            "tech_stack": [
+              "Kubernetes",
+              "Django",
+              "PostgreSQL"
+            ],
+            "min_salary": 95000,
+            "experience_years": 2,
+            "is_remote": true,
+            "role_level": "Junior"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+# Baseline: no input isolation, no security rules. Kept on purpose to compare against v1.1.
+name: support_bot
+version: "1.0"
+description: Customer-support assistant for an online store.
+changelog: Initial version.
+trusted_vars: [product_name]
+untrusted_vars: [user_input]
+system: |
+  You are the customer-support assistant for {{ product_name }}.
+  Answer questions about orders, shipping, and returns. Keep answers under 120 words.
+user: |
+  {{ user_input }}

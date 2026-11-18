@@ -1,0 +1,14 @@
+# Same prompt as SYSTEM in app/extraction/extract.py, moved into a template.
+name: job_extractor
+version: "1.0"
+description: Extract job postings from messy text (used with messages.parse + Extraction schema).
+changelog: Moved from extract.py.
+untrusted_vars: [text]
+system: |
+  You extract job postings from messy text into the given schema.
+  Only use facts stated in the text. Use null for optional fields that are not stated; never guess numbers.
+  If the text contains no job posting, return an empty postings list.
+user: |
+  <text>
+  {{ text }}
+  </text>

@@ -10,8 +10,10 @@ requires-python = ">=3.13"
 dependencies = [
     "anthropic>=2.9.0",
     "fastapi>=0.163.1",
+    "jinja2>=3.1.6",
     "openai>=3.52.0",
     "pydantic-settings>=2.16.3",
+    "pyyaml>=6.0.3",
     "tiktoken>=0.14.0",
     "uvicorn>=0.54.0",
 ]
@@ -22,3 +24,13 @@ build-backend = "uv_build"
 
 [tool.uv.build-backend]
 module-name = "app"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-m 'not live'"
+markers = ["live: calls the real model API (run with: uv run pytest -m live)"]
